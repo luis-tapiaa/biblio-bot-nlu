@@ -38,7 +38,7 @@ Despues se instala Rasa el cual contiene las dependencias para el proyecto.
 
 Antes de iniciar el servicio debemos entrenar el modelo de lenguaje natural:
 
-``rasa trail nlu``
+``rasa train nlu``
 
 Esto nos va a entregar un modelo en la carpeta `models/`.
 
