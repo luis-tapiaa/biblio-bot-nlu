@@ -13,7 +13,6 @@ pipeline:
   - name: "DIETClassifier"
     intent_tokenization_flag: true
     intent_split_symbol: "+"
-  - name: "custom_component.custom.GeneralSearch"
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
